@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Proyecto de Página Digital</title>
+  <!-- Íconos de Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    * {
+      transition: all 0.3s ease;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('imagen/imagendefondo.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: #00ffcc;
+    }
+
+    .sidebar {
+      width: 220px;
+      height: 100vh;
+      background: rgba(17, 17, 17, 0.9); /* Fondo semi-transparente */
+      box-shadow: 6px 0 20px rgba(0, 255, 204, 0.4);
+      padding-top: 20px;
+      position: fixed;
+      border-right: 2px solid #00ffcc;
+    }
+
+    .sidebar h2 {
+      text-align: center;
+      color: #00ffcc;
+      margin-bottom: 30px;
+      font-weight: bold;
+      font-size: 24px;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 80%;
+      margin: 12px auto;
+      padding: 12px;
+      background: #111;
+      border: 2px solid #00ffcc;
+      border-radius: 10px;
+      color: #00ffcc;
+      text-align: left;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background 0.3s, color 0.3s, transform 0.3s;
+    }
+
+    .btn i {
+      min-width: 20px;
+    }
+
+    .btn:hover {
+      background: #00ffcc;
+      color: #111;
+      cursor: pointer;
+      box-shadow: 0 0 12px #00ffcc;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Pangra Team</h2>
+
+  <a href="Matematicas1.html" class="btn"><i class="fas fa-square-root-alt"></i> Proyecto de Matemáticas</a>
+  <a href="ciencias1.html" class="btn"><i class="fas fa-flask"></i> Taller de Ciencias</a>
+  <a href="calendario1.html" class="btn"><i class="fas fa-calendar-alt"></i> Calendario</a>
+  <a href="maint1.html" class="btn"><i class="fas fa-tools"></i> Proyecto de MAINT</a>
+  <a href="reacciones1.html" class="btn"><i class="fas fa-vials"></i> Reacciones Químicas</a>
+  <a href="sabiasque1.html" class="btn"><i class="fas fa-lightbulb"></i> ¿Sabías que?</a>
+  <a href="Mate1.html" class="btn"><i class="fas fa-lightbulb"></i> Animación de Geogebra</a>
+  <a href="creditos1.html" class="btn"><i class="fas fa-users"></i> Créditos</a>
+</div>
+
+</body>
+</html>
